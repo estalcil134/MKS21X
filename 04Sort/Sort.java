@@ -10,6 +10,22 @@ public class Sort{
   }
   
   public static void selectionSort(int[] data){
-    int end = data.length;
-    for(int start = 0; start < end; start + 1){
+    int var = 0;
+    for(int start = 0; start < data.length; start ++){
+      var = data[start];
       
+    }
+  }
+  
+  public static void insertionSort(int[] data){
+    int var = 0;
+    for(int start = 1; start < data.length; start ++){
+      var = data[start];
+      
+    }
+  
+  
+  
+  
+
+}
