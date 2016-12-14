@@ -1,4 +1,4 @@
-public class Sort{
+public class Sorts{
   public static String name(){
     return "10.Wong.Wilson";
   }
