@@ -1,7 +1,5 @@
 public class Sorts{
-<<<<<<< HEAD
-    public static String(
-=======
+
   public static String name(){
     return "10.Wong.Wilson";
   }
@@ -32,4 +30,4 @@ public class Sorts{
   
 
 }
->>>>>>> e248969d470cdbfb1202f3d910368bfa3bac2e48
+
