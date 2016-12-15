@@ -14,7 +14,10 @@ public class Sorts{
     int var = 0;
     for(int start = 0; start < data.length; start ++){
       var = data[start];
-      
+      for(int i = data.indexOf(start); i < data.length; i++){
+        if(var < data[i]){
+          
+      }
     }
   }
   
@@ -24,8 +27,11 @@ public class Sorts{
       var = data[start];
       
     }
+  }
   
-  
+  public static void bubbleSort(int[] data){
+    
+  }
   
   
 
