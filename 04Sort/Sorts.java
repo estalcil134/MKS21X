@@ -1,7 +1,5 @@
 public class Sorts{
-<<<<<<< HEAD
-    public static String(
-=======
+
   public static String name(){
     return "10.Wong.Wilson";
   }
@@ -16,7 +14,10 @@ public class Sorts{
     int var = 0;
     for(int start = 0; start < data.length; start ++){
       var = data[start];
-      
+      for(int i = data.indexOf(start); i < data.length; i++){
+        if(var < data[i]){
+          
+      }
     }
   }
   
@@ -26,10 +27,13 @@ public class Sorts{
       var = data[start];
       
     }
+  }
   
-  
+  public static void bubbleSort(int[] data){
+    
+  }
   
   
 
 }
->>>>>>> e248969d470cdbfb1202f3d910368bfa3bac2e48
+
